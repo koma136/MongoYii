@@ -1,4 +1,5 @@
 **You can find a more user friendly version of this documentation on the extensions Github page: [http://sammaye.github.io/MongoYii](http://sammaye.github.io/MongoYii)**
+WORK GRIDFS PHP7!!!
 
 # MongoYii
 
