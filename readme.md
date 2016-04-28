@@ -21,7 +21,7 @@ use:
 
             'server' => 'mongodb://root:root@localhost',
 
-            'db' => 'parser'
+            'db' => 'dabasename'
 
         ],
 
