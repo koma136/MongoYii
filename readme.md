@@ -4,8 +4,8 @@ WORK GRIDFS PHP7!!!
 Fork sammaye/mongoyii
 
 Install: 
-pecl install mongodb
-composer ruquire mongofill/mongofill
+pecl install mongodb \n
+composer ruquire mongofill/mongofill \n
 composer ruquire koma136/MongoYii
 
 use:
