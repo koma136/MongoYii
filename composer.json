@@ -2,7 +2,7 @@
     "name": "koma136/mongoyii",
     "description": "Yii MongoDB PHP7 GRIDFS",
     "keywords": ["mongodb","orm","yii","gridfs","php7"],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "type": "yii-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -11,7 +11,7 @@
             "homepage": "http://sammaye.wordpress.com"
         }
     ],
-	"require-dev": {
+	"require": {
 		"mongofill/mongofill": "*"
 	},
     "autoload": {
