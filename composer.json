@@ -2,7 +2,7 @@
     "name": "koma136/mongoyii",
     "description": "Yii MongoDB PHP7 GRIDFS",
     "keywords": ["mongodb","orm","yii","gridfs","php7"],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "type": "yii-extension",
     "license": "BSD-3-Clause",
     "authors": [
