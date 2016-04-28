@@ -1,12 +1,12 @@
 {
-    "name": "sammaye/mongoyii",
+    "name": "koma136/mongoyii",
     "description": "Yii MongoDB PHP7 GRIDFS",
     "keywords": ["mongodb","orm","yii"],
     "type": "yii-extension",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Sammaye",
+            "name": "koma136",
             "homepage": "http://sammaye.wordpress.com"
         }
     ],
