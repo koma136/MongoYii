@@ -1,6 +1,6 @@
 {
     "name": "sammaye/mongoyii",
-    "description": "A Yii MongoDB ORM",
+    "description": "Yii MongoDB PHP7 GRIDFS",
     "keywords": ["mongodb","orm","yii"],
     "type": "yii-extension",
     "license": "BSD-3-Clause",
@@ -11,7 +11,7 @@
         }
     ],
 	"require": {
-		"ext-mongo": "*"
+		"mongofill/mongofill": "dev-master"
 	},
     "autoload": {
     	"classmap": [
