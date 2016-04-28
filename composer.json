@@ -11,7 +11,7 @@
             "homepage": "http://sammaye.wordpress.com"
         }
     ],
-	"require": {
+	"require-dev": {
 		"mongofill/mongofill": "*"
 	},
     "autoload": {
