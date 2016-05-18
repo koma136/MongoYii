@@ -221,7 +221,7 @@ class EMongoFile extends EMongoDocument
 		if($attributes === null){
 			$document=$this->getRawDocument();
 		}else{
-			$document=$this->filterRawDocument($this->getAttributes($attributes));
+			$document=$this->filterRawDocument($attributes);
 		}
 
 		if(YII_DEBUG){
