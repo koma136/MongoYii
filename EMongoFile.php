@@ -174,6 +174,10 @@ class EMongoFile extends EMongoDocument
 		// set it as our attributes and then set this classes file as the first param we got
 		$file = $attributes;
 		$attributes = $file->file;
+		if($file instanceof MongoGridFSFile && isset($attributes['$err'])){
+			Yii::log('Mongo Error:'.$attributes['$err'],'error');
+			return null;
+		}
 		$record = $this->instantiate($attributes);
 		$record->setFile($file);
 		$record->setScenario('update');
