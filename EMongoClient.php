@@ -24,6 +24,7 @@ class EMongoClient extends CApplicationComponent
 	 */
 	public $options = array();
 	/**
+	 *  Additional context for the connection constructor
 	 * @var array
 	 */
 	public $ctx = array();
