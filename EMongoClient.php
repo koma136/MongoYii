@@ -23,7 +23,10 @@ class EMongoClient extends CApplicationComponent
 	 * @var array
 	 */
 	public $options = array();
-	
+	/**
+	 * @var array
+	 */
+	public $ctx = array();
 	/**
 	 * The name of the database
 	 * @var string
@@ -211,7 +214,7 @@ class EMongoClient extends CApplicationComponent
 				$this->_mongo->setSlaveOkay($this->setSlaveOkay);
 			}
 		}else{
-			$this->_mongo = new MongoClient($this->server, $this->options);
+			$this->_mongo = new MongoClient($this->server, $this->options, ["context" => stream_context_create($this->ctx)]);
 			
 			if(is_array($this->RP)){
 				$const = $this->RP[0];
